@@ -1,0 +1,142 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Administrador K4ing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  
+
+      <header class="app-header"> 
+        <nav class="navbar app-navbar">
+            <div class="container">
+
+              <div class="navbar-header">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <button class="navbar-toggle" data-toggle="collapse" data-target="#menu_Form">
+                        <span class="icon-bar app-icon"></span>
+                        <span class="icon-bar app-icon"></span>
+                        <span class="icon-bar app-icon"></span>
+                        <span class="icon-bar app-icon"></span>                                      
+                        </button>
+                        <a href="#" class="navbar-brand app-link">J4FE</a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                      <img src="img/logo.png" class="img-responsive app-logo" alt="logo">
+                    </div>
+                
+                </div>
+              </div>
+              
+              <div class="collapse navbar-collapse" id="menu_Form">
+                  
+                  <ul class="nav navbar-nav navbar-right app-nav">
+                    <!--li class="dropdown mega-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="user">
+                              <span class="app-user glyphicon glyphicon-user"></span>
+                        </a>
+                            <ul class="dropdown-menu user row">
+                            <li class="app-enlaces">
+                                <a href="cambiarPS.php">Cambiar Password</a>
+                            </li>
+                            <li class="app-enlaces">
+                                <a href="logout.php">Salir</a>
+                            </li>
+                            <li class="app-enlaces">
+                               
+                                <a href="#" disabled data-container="body" data-toggle="tooltip" data-placement="left" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nisi at ad perspiciatis. Aspernatur laudantium facere impedit laboriosam quisquam officiis, enim totam perspiciatis, saepe sed, ipsa recusandae autem blanditiis doloribus." >Help</a>
+                                
+                            </li>
+                           
+                        
+                            </ul>
+                    </li!-->
+                    <li class="app-enlaces">
+                        <a href="cambiarPS.php">Cambiar Password</a>
+                      </li>
+                    <li class="app-enlaces">
+                        <a href="logout.php">Salir</a>
+                    </li>
+                    <li class="app-enlaces">
+                        <a href="#" disabled data-container="body" data-toggle="tooltip" data-placement="left" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nisi at ad perspiciatis. Aspernatur laudantium facere impedit laboriosam quisquam officiis, enim totam perspiciatis, saepe sed, ipsa recusandae autem blanditiis doloribus." >Help</a>
+                      </li>
+                                
+
+                  
+                  </ul>
+
+              </div>
+
+            </div>
+        </nav> 
+
+        <section class="section1">
+          <div class="container">
+            <div>
+                <h2 class="app-titulo">Cambia Tu nombre se Usuario y tu contraseña </h2>
+                        
+                <div> 
+                  <form action="cambiarPS.php" name="CambiarPS" method="POST">
+                    <ul class="list-group">
+                      <il class="list-group-item app-lista1">
+                      <h2 class="app-reporte">Usuario <span class="glyphicon glyphicon-user"></span></h2>
+                      </il>
+                    
+                      <il class="list-group-item"><input type="text" name="user_a" placeholder="Usuario Antiguo" class="app-input form-control"></il>
+                        
+                      <il class="list-group-item"><input type="password" name="passwoord_a" placeholder="Clave Antigua" class="app-input form-control"></il>
+                      
+                      <il class="list-group-item"><input type="text" name="user" placeholder="Usuario Nuevo" class="app-input form-control"></il>
+                        
+                      <il class="list-group-item"><input type="password" name="passwoord" placeholder="Clave Nueva" class="app-input form-control"></il>   
+                      
+                      <li class="list-group-item">
+                         <div class="row">
+                            <div class="col-xs-12 col-sm-4"></div>
+                            <div class="col-xs-12 col-sm-4 form-group">
+                              <button class="btn btn-primary app-btn1 btn-block"><span class="glyphicon glyphicon-pencel "></span> Cambiar</button>
+                            </div>
+                            <div class="col-xs-12 col-sm-4"></div>
+                          </div>
+                        </il>
+                      </ul>
+                  
+                  </form>
+                </div>
+
+               
+              
+          
+            </div>
+        </section>
+
+      </header>
+
+      <footer class="app-footer">
+            <div class="app-empresa">
+                <h4>K4ing</h4>
+                <p class="app-descripcion2">Contactanos por <br> <span class="app-resaltar">Jesus Villalta <br>CI: 25.237.118</span></p>
+            </div>
+            <a href="#"><img src="img/png/facebook-logo.png" class=" app-icon1"></a>
+            <a href="#"><img src="img/png/instagram-symbol.png" class=" app-icon1"></a>
+            <a href="#"><img src="img/png/twitter-black-shape.png" class=" app-icon1"></a>
+      </footer>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
